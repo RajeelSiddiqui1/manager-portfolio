@@ -70,8 +70,8 @@ export function Hero() {
 
               {/* Stats Overlay */}
               <div className="absolute -bottom-10 -right-6 md:-right-12 glass-card p-6 md:p-8 rounded-3xl shadow-2xl max-w-[240px] border-primary/20">
-                <p className="text-primary font-black text-5xl mb-1">$12M+</p>
-                <p className="text-[10px] text-muted-foreground uppercase font-black tracking-widest leading-tight">Managed Portfolio Budget in 2023</p>
+                <p className="text-primary font-black text-5xl mb-1">100+</p>
+                <p className="text-[10px] text-muted-foreground uppercase font-black tracking-widest leading-tight">Successfully Delivered Strategic Projects</p>
               </div>
 
               <div className="absolute top-10 -left-10 glass-card p-5 rounded-2xl shadow-xl border-primary/20 hidden md:block">

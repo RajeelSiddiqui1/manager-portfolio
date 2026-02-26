@@ -1,10 +1,13 @@
-
 import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Prime Portfolio | Senior Technical Project Manager',
+  title: 'Farhan Raza | Strategic Portfolio',
   description: 'A showcase of strategic leadership, agile delivery, and digital transformation.',
+  icons: {
+    icon: '/farhan.png',
+    apple: '/farhan.png',
+  },
 }
 
 export default function RootLayout({
