@@ -1,3 +1,4 @@
+
 export const portfolioData = {
   personal: {
     name: "Farhan Raza",
@@ -79,22 +80,105 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Enterprise FinTech Ecosystem",
-      description: "A secure, multi-tenant financial reporting platform handling $500M+ in monthly transactions with real-time compliance auditing.",
-      image: "https://picsum.photos/seed/project1/800/600",
-      tags: ["FinTech", "Azure", "ISO 27001"]
+      id: "project-1",
+      title: "Full-Stack CRM",
+      description: "Office based CRM product to manage teams and workflows in a single system.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059547/selqlb76pys0a5zlcoin.png",
+      liveLink: "http://mhcirclesolutions.com/",
+      tags: ["JavaScript", "Next.js", "Shadcn UI", "Dnd Kit"],
+      category: "Full Stack"
     },
     {
-      title: "Global Supply Chain Hub",
-      description: "Modernizing a legacy ERP system into a microservices-based real-time tracking architecture for a Tier-1 logistics provider.",
-      image: "https://picsum.photos/seed/project2/800/600",
-      tags: ["Logistics", "AWS", "K8s"]
+      id: "project-2",
+      title: "Full-Stack MRS Docker",
+      description: "Media storage system where users can organize images, videos and files into folders.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770061201/qnpgqn24a1ptdijqcuxx.png",
+      liveLink: "https://mrs-docker.vercel.app/",
+      tags: ["JavaScript", "Next.js", "MongoDB"],
+      category: "Full Stack"
     },
     {
-      title: "TeleHealth Patient Portal",
-      description: "Developing a HIPAA-compliant portal facilitating 10k+ daily secure video consultations during a period of 400% scale.",
-      image: "https://picsum.photos/seed/project3/800/600",
-      tags: ["Healthcare", "NextJS", "HIPAA"]
+      id: "project-3",
+      title: "Frontend AI Chatbot",
+      description: "Personal AI chatbot with two modes: normal chat and streaming chat.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059547/t65ahysg80qdojtjke7w.png",
+      liveLink: "https://stream-chat-bot.vercel.app/",
+      tags: ["JavaScript", "Next.js"],
+      category: "Frontend"
+    },
+    {
+      id: "project-4",
+      title: "Full-Stack Reel App",
+      description: "User authentication based application where users can upload and manage images and videos.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770060580/sx9vcy80asbhu2sypxbk.png",
+      liveLink: "https://ai-reel-app.vercel.app/",
+      tags: ["JavaScript", "Next.js", "MongoDB"],
+      category: "Full Stack"
+    },
+    {
+      id: "project-5",
+      title: "Full-Stack Blog Project",
+      description: "Blog platform where users can create and manage posts.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059531/qfkddytam68d4weuncj4.png",
+      tags: ["JavaScript", "SQLite"],
+      category: "Full Stack"
+    },
+    {
+      id: "project-6",
+      title: "Full-Stack Tweet Project",
+      description: "Personal social app where users authenticate and publish tweets.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059531/qfkddytam68d4weuncj4.png",
+      tags: ["JavaScript", "MongoDB"],
+      category: "Full Stack"
+    },
+    {
+      id: "project-8",
+      title: "E-commerce Frontend Project",
+      description: "Personal frontend ecommerce website built for a semester project.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059531/l6m8wtmmgcmctjjx6otr.png",
+      tags: ["HTML", "CSS", "JSON", "JavaScript"],
+      category: "Frontend"
+    },
+    {
+      id: "project-9",
+      title: "Book Sales Shop App",
+      description: "Semester end project for selling and managing books using Flutter and Firebase.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059531/a7i63sbstj6lqfdznxws.png",
+      liveLink: "https://task-6851a.web.app/",
+      tags: ["Dart", "Flutter", "Firebase"],
+      category: "Mobile App"
+    },
+    {
+      id: "project-10",
+      title: "AI Based Project (Techwaze)",
+      description: "Techwaze competition project where I developed the backend and AI integration.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059546/pjsymrv7pfmyyjrnzas4.png",
+      tags: ["Python", "Flask", "Gemini API", "MongoDB"],
+      category: "AI"
+    },
+    {
+      id: "project-11",
+      title: "First Flight Booking UI",
+      description: "Personal frontend flight booking interface project.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770059532/qhcmlv3pyyveoixrt03c.png",
+      tags: ["HTML", "CSS", "JavaScript", "JSON"],
+      category: "Frontend"
+    },
+    {
+      id: "project-12",
+      title: "WanderSync (Techwaze Project)",
+      description: "AI based travel assistant developed as a solo Techwaze project.",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770061672/rgath2sqdiwb1ce5umgk.png",
+      tags: ["Python", "Flask", "Gemini API", "MongoDB", "Qdrant"],
+      category: "AI"
+    },
+    {
+      id: "project-13",
+      title: "Laravel CRM (Company Product)",
+      description: "This is also crm product of company",
+      image: "https://res.cloudinary.com/dqjjreavg/image/upload/v1770064545/jzke3tp2rbvwq8ikoljl.png",
+      tags: ["Php", "Laravel", "My Sql"],
+      category: "Full Stack"
     }
   ]
 };
