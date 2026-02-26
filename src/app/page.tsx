@@ -9,6 +9,8 @@ import { ExperienceTimeline } from '@/components/sections/experience-timeline'
 import { Projects } from '@/components/sections/projects'
 import { Contact } from '@/components/sections/contact'
 import { Footer } from '@/components/footer'
+import { Chatbot } from '@/components/chatbot'
+import { Toaster } from '@/components/ui/toaster'
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <Projects />
         <Contact />
         <Footer />
+        <Chatbot />
+        <Toaster />
       </main>
     </ThemeProvider>
   )
