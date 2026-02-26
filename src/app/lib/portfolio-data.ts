@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Farhan Raza",
     title: "Senior Technical Project Manager",
     bio: "Strategizing and executing multi-million dollar digital transformations for global enterprises. With over a decade of leadership experience, I bridge the gap between complex engineering architectures and high-level business objectives to drive sustainable growth and ROI-driven outcomes.",
-    image: "https://picsum.photos/seed/farhan-pro/600/600",
+    image: "/farhan.png",
     philosophy: "True leadership is about creating an environment where high-performing teams can solve impossible problems through radical transparency and data-driven execution.",
     socials: {
       linkedin: "https://www.linkedin.com/in/farhanraza-49493a167",
