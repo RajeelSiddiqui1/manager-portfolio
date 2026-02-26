@@ -62,7 +62,7 @@ export async function sendContactEmail(formData: { name: string; email: string; 
   const mailOptions = {
     from: `"Portfolio Inquiry" <alifarhan1531@gmail.com>`,
     to: 'alifarhan1531@gmail.com',
-    subject: `🚀 New Strategic Inquiry from ${formData.name}`,
+    subject: `New Strategic Inquiry from ${formData.name}`,
     text: `New Portfolio Inquiry\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
     html: htmlTemplate,
     replyTo: formData.email
