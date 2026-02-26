@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: 'Farhan Raza | Strategic Portfolio',
   description: 'A showcase of strategic leadership, agile delivery, and digital transformation.',
   icons: {
-    icon: '/farhan.png',
-    apple: '/farhan.png',
+    icon: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 }
 
