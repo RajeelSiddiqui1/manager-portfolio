@@ -26,7 +26,7 @@ export function Skills() {
                   <Badge 
                     key={sIdx} 
                     variant="secondary" 
-                    className="px-5 py-2.5 rounded-xl text-sm font-bold bg-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 border border-border/50 hover:scale-105 cursor-default shadow-sm"
+                    className="px-5 py-2.5 rounded-xl text-sm font-bold bg-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 border border-border/50 hover:scale-105 cursor-default shadow-md dark:shadow-black/60 hover:shadow-primary/20 dark:hover:shadow-primary/10"
                   >
                     {skill}
                   </Badge>
