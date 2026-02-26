@@ -7,19 +7,21 @@ import { Services } from '@/components/sections/services'
 import { Skills } from '@/components/sections/skills'
 import { ExperienceTimeline } from '@/components/sections/experience-timeline'
 import { Projects } from '@/components/sections/projects'
+import { Contact } from '@/components/sections/contact'
 import { Footer } from '@/components/footer'
 
 export default function Home() {
   return (
     <ThemeProvider>
-      <main className="min-h-screen bg-background font-body selection:bg-primary/30 selection:text-primary transition-colors duration-500 overflow-x-hidden">
+      <main className="min-h-screen bg-background font-body selection:bg-primary/20 selection:text-primary transition-colors duration-500 overflow-x-hidden scroll-smooth">
         <Navbar />
         <Hero />
-        <Philosophy />
         <Services />
+        <Philosophy />
         <Skills />
         <ExperienceTimeline />
         <Projects />
+        <Contact />
         <Footer />
       </main>
     </ThemeProvider>
