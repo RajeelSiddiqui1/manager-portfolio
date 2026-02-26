@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-profile",
+      "description": "Professional profile portrait",
+      "imageUrl": "https://picsum.photos/seed/farhan-profile/400/400",
+      "imageHint": "professional man portrait"
+    },
+    {
+      "id": "project-1",
+      "description": "Enterprise Dashboard Project",
+      "imageUrl": "https://picsum.photos/seed/project1/800/600",
+      "imageHint": "tech dashboard"
+    },
+    {
+      "id": "project-2",
+      "description": "Mobile Banking App Case Study",
+      "imageUrl": "https://picsum.photos/seed/project2/800/600",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-3",
+      "description": "Cloud Infrastructure Migration",
+      "imageUrl": "https://picsum.photos/seed/project3/800/600",
+      "imageHint": "cloud computing"
+    }
+  ]
+}
