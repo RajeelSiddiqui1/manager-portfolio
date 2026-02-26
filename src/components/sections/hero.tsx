@@ -45,7 +45,7 @@ export function Hero() {
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" className="rounded-xl w-16 h-16 border border-transparent hover:border-primary/20" asChild>
-                  <a href={`mailto:${personal.socials.email}`}><Mail className="w-6 h-6" /></a>
+                  <a href={`mailto:falifarhan1531@gmail.com`}><Mail className="w-6 h-6" /></a>
                 </Button>
               </div>
             </div>
